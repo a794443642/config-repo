@@ -4,3 +4,14 @@ spring:
   application:
     name: config-client
 name: config-client-default
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/eagle_eye_local?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: wcj15834005515
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
