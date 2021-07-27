@@ -1,3 +1,5 @@
+example:
+  property: "I AM IN THE PRODUCE"
 server:
   port: 7779
 spring:
